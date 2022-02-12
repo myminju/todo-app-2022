@@ -40,7 +40,7 @@ export default function App() {
     await saveToDos(newToDos);
     setText("");
   }
-  const deleteToDo = (id) => {
+  const deleteToDo = (key) => {
     Alert.alert("Delete To Do", "Are you sure?", [
       { text: "Cancel" },
       {
